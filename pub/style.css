@@ -1,0 +1,64 @@
+body {
+    background: #CDCDCD
+}
+
+.main_headder {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 350%;
+    color: black;
+}
+
+.header {
+    background: white;
+    margin-top: -20px;
+  }
+
+.hearder_text {
+    margin: 0px;
+}
+
+.displayLinkTab {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.displayLink {
+    padding: 15px;
+    border-collapse: collapse;
+    border: none;
+    transition-duration: 0.4s;
+  }
+
+.displayLink:hover {
+    padding: 15px;
+    border-collapse: collapse;
+    background-color: white;
+    border: black 1px solid;
+  }
+
+
+a {
+    color: #676767;
+    font-size: 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: #CDCDCD;
+}
+
+.awardBlock {
+    width: 70%;
+    margin-left: 15%;
+}
+
+h3 {
+    color: #676767;
+}
