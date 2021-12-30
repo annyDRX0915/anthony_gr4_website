@@ -59,6 +59,11 @@ body::before{
     background-color: white;
 }
 
+.pageInnerContent {
+    width: 90%;
+    margin-left: 5%;
+}
+
 h3 {
     color: #676767;
 }
