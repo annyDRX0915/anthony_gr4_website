@@ -66,19 +66,27 @@ body::before{
     margin-left: 5%;
 }
 
+.header {
+    background-color: #EAEAEA;
+    text-align: center;
+}
+
 h3 {
     color: #676767;
-    font-size: 2vw;
+    font-size: 25px;
+    font-size: 1.75vw;
 }
 
 h2 {
     color: #676767;
+    font-size: 35px;
     font-size: 2vw;
 }
 
 h1 {
     color: #676767;
-    font-size: 2vw;
+    font-size: 45px;
+    font-size: 3vw;
 }
 
 a {

@@ -32,6 +32,10 @@ app.get('/awards', (req, res) => {
 	res.sendFile(path.join(__dirname, '/pub/awards.html'))
 })
 
+app.get('/volunteers', (req, res) => {
+	res.sendFile(path.join(__dirname, '/pub/volunteer.html'))
+})
+
 const port = process.env.PORT || 5000
 app.listen(port, () => {
 	log(`Listening on port ${port}...`)
